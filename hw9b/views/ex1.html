@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles.css" type="text/css">
+</head>
+
+<body>
+    <h3><a href="/">Link to Start Page</a></h3>
+    <h2>Narasimha's Sample Form</h2><br>
+    <form>
+
+        Name: <input type="text" name="name"><br><br>
+        Email: <input type="email" name="email"><br><br>
+
+        Payment Type: <br>
+       
+            <input type="radio" name="payment" value ="cash"checked>Cash
+            <!-- <label for="cash">Cash</label> -->
+            <br>
+            <input type="radio" name="payment" value ="ccard">Credit Card
+            <!-- <label for="credit">Credit Card</label> -->
+            <br>
+            <input type="radio" name="payment" value ="gpay">Google Pay
+            <!-- <label for="gpay">Google Pay</label> -->
+            <br>
+            <input type="radio" name="payment" value ="apay">Apple Pay
+            <!-- <label for="apay">Apple Pay</label> -->
+            <br>
+            <br>
+        
+        <input type="checkbox" name="signup" id="signup" checked>
+        <label for="signup">Sign Up for special promotions</label>
+        <br><br>
+        Preferred Location:
+        <select name="location">
+            <option value="LA">Los Angeles </option>
+            <option value="OC">Orange County</option>
+            <option value="RS">Riverside</option>
+            <option value="SD">San Diego</option>
+        </select><br><br>
+
+
+        <input type="submit" value="Submit">
+        <input type="button" value="Cancel">
+    </form>
+    <br><br>
+    <p id="result"></p>
+    <script src="/ex1.js"></script>
+
+</body>
+
+</html>

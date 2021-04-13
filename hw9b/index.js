@@ -54,7 +54,7 @@ app.post("/articles",upload.array(), (request, response) => {
     
     const article = {title: title, content: content}
     array.push(article);
-    response.send(`New artcile added successfully with title "${title}" and ID ${array.length}!`);
+    response.send(`New article added successfully with title "${title}" and ID ${array.length}!`);
 });
 
 // Start listening to incoming requests
